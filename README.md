@@ -2,7 +2,8 @@
 
 Summarises how a compound is expected to perturb cells, drawing on the five D spaces of the Chemical Checker, which cover transcriptional response, growth inhibition across cancer cell lines, chemical genetics, cell morphology and cell-based bioassays. The deep networks behind them were obtained by fine-tuning Uni-Mol on single optimised 3D conformers, following evidence that roughly 40% of stereoisomer pairs among more than a million compounds bind differently. Cellular signatures are inferred from structure alone, so they anticipate rather than replace phenotypic screening.
 
-This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
+This model was incorporated on 2025-06-25.
+Last packaged on 2025-12-30.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 640 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos77jk](https://hub.docker.com/r/ersiliaos/eos77jk)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos77jk.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos77jk.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos77jk_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos77jk_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2728`
